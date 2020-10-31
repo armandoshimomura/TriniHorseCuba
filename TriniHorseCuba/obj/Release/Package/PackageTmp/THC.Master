@@ -1,0 +1,227 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="THC.master.cs" Inherits="TriniHorseCuba.THC" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Horsebackuba</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <meta name="description" content="Horseback Ride in Trinidad. Interacted with the nature and know about our culture in rural areas, you will live the best experience on horseback that makes an unforgettable memory of the best of Trinidad and Cuba">
+
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	
+    <!-- THC css -->
+	<link rel="stylesheet" href="css/style.css">
+
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="Inicio.aspx"><img src="img/logo.png" alt="" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item"><a id="a01" class="nav-link" href="Inicio.aspx">Home</a></li>
+                            <li class="nav-item"><a id="a02" class="nav-link" href="Importante.aspx">Important</a></li>
+                            <li class="nav-item"><a id="a03" class="nav-link" href="Galeria.aspx">Galery</a></li>
+                            <li class="nav-item"><a id="a04" class="nav-link" href="Contacto.aspx">Contact us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a id="a05" class="primary-btn mt-0" data-toggle="modal" data-target="#THCmodal">Book now</a>
+                            </li>
+                        </ul>                        
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item submenu dropdown">
+								<a id="a06" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
+								<ul id="IDI" class="dropdown-menu">
+									<li class="nav-item"><a href="Inicio.aspx?lang=ENG" class="nav-link PoH lang">English</a></li>
+									<li class="nav-item"><a href="Inicio.aspx?lang=SPA" class="nav-link PoH lang">Spanish</a></li>
+								</ul>
+							</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="modal fade" id="THCmodal" tabindex="-1" role="dialog" aria-labelledby="THCmodalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"><label id="m01">Soon we'll be together</label></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label id="m02">Because our borders are closed, we do not provide reservation services at this time.</label>
+                    <br /><br />
+                    <label id="m03">We appreciate your understanding.</label>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="cphBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <footer class="footer-area">
+		<div class="footer_top section_gap_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h5 class="footer_title">Horsebackuba</h5>
+							<p id="f01" class="about-text text-justify">Horseback Ride in Trinidad. Interacted with the nature and know about our culture in rural areas, you will live the best experience on horseback that makes an unforgettable memory of the best of Trinidad and Cuba.</p>
+						</div>
+					</div>
+                    <div class="col-lg-1 col-md-6 col-sm-6">
+
+                    </div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h5 id="f02" class="footer_title">Navigation</h5>
+							<div class="row">
+								<div class="col-5">
+									<ul class="list">
+										<li><a id="f03" href="Inicio.aspx">Home</a></li>
+										<li><a id="f04" href="Importante.aspx">Important</a></li>
+									</ul>
+								</div>
+								<div class="col-5">
+									<ul class="list">
+										<li><a id="f05" href="Galeria.aspx">Galery</a></li>
+										<li><a id="f06" href="Contacto.aspx">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h5 id="f07" class="footer_title">Follow us</h5>
+                            <div class="row">
+							    <div class="col-2 col-md-3 col-sm-6">
+                                    <ul class="list">
+										<li><a href="https://www.facebook.com/Trinihorse-Cuba-102853971378642/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+									</ul>
+							        
+						        </div>
+                                <div class="col-2 col-md-3 col-sm-6">
+                                    <ul class="list">
+                                        <li><a href="https://instagram.com/trinihorsecuba?igshid=bo8310nsd9vn" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<p>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
+                            <label id="f08">All rights reserved</label> - <a href="#">Horsebackuba</a>
+                        </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/owl-carousel-thumb.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+
+    <script type="text/javascript">        
+        switch ('<%=Session["Idioma"] %>') {
+            case "SPA":
+                document.getElementById("a01").innerHTML = "Inicio";
+                document.getElementById("a02").innerHTML = "Importante";
+                document.getElementById("a03").innerHTML = "Galeria";
+                document.getElementById("a04").innerHTML = "Contacto";
+                document.getElementById("a05").innerHTML = "Haz tu reserva";
+                document.getElementById("a06").innerHTML = "Idioma";
+
+                document.getElementById("m01").innerHTML = "Pronto estaremos juntos";
+                document.getElementById("m02").innerHTML = "Debido a que nuestras fronteras están cerradas, no proporcionamos servicios de reserva en este momento.";
+                document.getElementById("m03").innerHTML = "Apreciamos su comprensión.";
+
+                document.getElementById("f01").innerHTML = "Cabalgata en Trinidad. Interactuando con la naturaleza y conociendo nuestra cultura en las zonas rurales, vivirás la mejor experiencia a caballo que hace un recuerdo inolvidable de lo mejor de Trinidad y Cuba.";
+                document.getElementById("f02").innerHTML = "Navegación";
+                document.getElementById("f03").innerHTML = "Inicio";
+                document.getElementById("f04").innerHTML = "Importante";
+                document.getElementById("f05").innerHTML = "Galeria";
+                document.getElementById("f06").innerHTML = "Contacto";
+                document.getElementById("f07").innerHTML = "Síguenos";
+                document.getElementById("f08").innerHTML = "Todos los derechos reservados";
+                break;
+            default:
+                document.getElementById("a01").innerHTML = "Home";
+                document.getElementById("a02").innerHTML = "Important";
+                document.getElementById("a03").innerHTML = "Gallery";
+                document.getElementById("a04").innerHTML = "Contact us";
+                document.getElementById("a05").innerHTML = "Book now";
+                document.getElementById("a06").innerHTML = "Language";
+
+                document.getElementById("m01").innerHTML = "Soon we'll be together";
+                document.getElementById("m02").innerHTML = "Because our borders are closed, we do not provide reservation services at this time.";
+                document.getElementById("m03").innerHTML = "We appreciate your understanding.";
+
+                document.getElementById("f01").innerHTML = "Horseback Ride in Trinidad. Interacted with the nature and know about our culture in rural areas, you will live the best experience on horseback that makes an unforgettable memory of the best of Trinidad and Cuba.";
+                document.getElementById("f02").innerHTML = "Navigation";
+                document.getElementById("f03").innerHTML = "Home";
+                document.getElementById("f04").innerHTML = "Important";
+                document.getElementById("f05").innerHTML = "Galery";
+                document.getElementById("f06").innerHTML = "Contact us";
+                document.getElementById("f07").innerHTML = "Follow us";
+                document.getElementById("f08").innerHTML = "All rights reserved";
+                break;
+        }  
+    </script>
+
+    <asp:ContentPlaceHolder ID="cphScripts" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

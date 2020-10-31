@@ -1,0 +1,6 @@
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\Mail\bin\Debug\Mail.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\Mail\bin\Debug\Mail.pdb
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\Mail\obj\Debug\Mail.csprojAssemblyReference.cache
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\Mail\obj\Debug\Mail.csproj.CoreCompileInputs.cache
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\Mail\obj\Debug\Mail.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\Mail\obj\Debug\Mail.pdb

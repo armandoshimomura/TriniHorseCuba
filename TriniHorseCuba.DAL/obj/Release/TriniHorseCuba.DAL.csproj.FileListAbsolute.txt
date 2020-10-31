@@ -1,0 +1,9 @@
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\bin\Release\TriniHorseCuba.DAL.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\bin\Release\TriniHorseCuba.DAL.pdb
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\bin\Release\TriniHorseCuba.BE.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\bin\Release\TriniHorseCuba.BE.pdb
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\obj\Release\TriniHorseCuba.DAL.csprojAssemblyReference.cache
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\obj\Release\TriniHorseCuba.DAL.csproj.CoreCompileInputs.cache
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\obj\Release\TriniHorseCuba.DAL.csproj.CopyComplete
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\obj\Release\TriniHorseCuba.DAL.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.DAL\obj\Release\TriniHorseCuba.DAL.pdb

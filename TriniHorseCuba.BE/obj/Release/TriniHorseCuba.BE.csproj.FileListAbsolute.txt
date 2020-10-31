@@ -1,0 +1,6 @@
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\bin\Release\TriniHorseCuba.BE.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\bin\Release\TriniHorseCuba.BE.pdb
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Release\TriniHorseCuba.BE.csprojAssemblyReference.cache
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Release\TriniHorseCuba.BE.csproj.CoreCompileInputs.cache
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Release\TriniHorseCuba.BE.dll
+E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Release\TriniHorseCuba.BE.pdb
