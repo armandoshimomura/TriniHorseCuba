@@ -20,9 +20,7 @@ namespace Mail
             smtpClient.Port = 587;                       
             smtpClient.Credentials = new System.Net.NetworkCredential(EmailOrigen, Contraseña);
             smtpClient.Send(mailMessage);
-            smtpClient.Dispose();
-            
-            Console.WriteLine("Reporte enviado a : " + To);
+            smtpClient.Dispose();            
         }
     }
 }

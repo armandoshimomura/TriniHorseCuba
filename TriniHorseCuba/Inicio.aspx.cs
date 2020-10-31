@@ -102,7 +102,7 @@ namespace TriniHorseCuba
             {                
                 StringBuilder body = new StringBuilder();
 
-                body.AppendLine("Estimado Administrador," + "<br>");
+                body.AppendLine("Estimado Administrador(a)," + "<br>");
                 body.AppendLine("<br>");
                 body.AppendLine("Se acaba de registrar un nuevo comentario en su web:" + "<br>");
                 body.AppendLine("<ul>");
