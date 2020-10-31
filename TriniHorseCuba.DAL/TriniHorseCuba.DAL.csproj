@@ -43,9 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DALBase.cs" />
+    <Compile Include="DALCnCollage.cs" />
     <Compile Include="DALCnComentario.cs" />
+    <Compile Include="DALCnFormulario.cs" />
     <Compile Include="DALCnHome.cs" />
     <Compile Include="DALCnRuta.cs" />
+    <Compile Include="DALCnUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
