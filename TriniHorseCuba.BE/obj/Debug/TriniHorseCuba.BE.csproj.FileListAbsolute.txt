@@ -3,7 +3,6 @@ E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\bin\Debug
 E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.csproj.CoreCompileInputs.cache
 E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.dll
 E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.pdb
-E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.csprojAssemblyReference.cache
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\bin\Debug\TriniHorseCuba.BE.dll
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\bin\Debug\TriniHorseCuba.BE.pdb
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.csprojAssemblyReference.cache
