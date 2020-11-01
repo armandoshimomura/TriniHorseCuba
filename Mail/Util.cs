@@ -8,8 +8,8 @@ namespace Mail
 {
     public class Util
     {
-        string EmailOrigen = "sammy@calderon.pro";
-        string Contraseña = "scc13de89!!xx";
+        string EmailOrigen = "horsebackubatrinidad@gmail.com";
+        string Contraseña = "samuel.961029";
 
         public void Enviar(string To, string Asunto, StringBuilder Cuerpo)
         {
