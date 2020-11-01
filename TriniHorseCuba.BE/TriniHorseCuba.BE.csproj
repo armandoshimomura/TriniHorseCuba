@@ -41,16 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BECollage.cs" />
     <Compile Include="BEComentario.cs" />
     <Compile Include="BEDetalleServicios.cs" />
     <Compile Include="BEDia.cs" />
+    <Compile Include="BEFormulario.cs" />
     <Compile Include="BEHome.cs" />
     <Compile Include="BEMes.cs" />
+    <Compile Include="BEPaginado.cs" />
     <Compile Include="BEResultado.cs" />
     <Compile Include="BERuta.cs" />
     <Compile Include="BESemana.cs" />
     <Compile Include="BETextosHome.cs" />
     <Compile Include="BETextosServicio.cs" />
+    <Compile Include="BEUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

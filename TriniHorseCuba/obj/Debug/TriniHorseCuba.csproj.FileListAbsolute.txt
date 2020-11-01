@@ -14,3 +14,19 @@ E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba\bin\TriniHor
 E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba\bin\TriniHorseCuba.DAL.pdb
 E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba\bin\Mail.dll
 E:\SammyCC\ok - Proyectos\_02_GoDaddy\TriniHorseCuba\TriniHorseCuba\bin\Mail.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\obj\Debug\TriniHorseCuba.csprojAssemblyReference.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\obj\Debug\TriniHorseCuba.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\obj\Debug\TriniHorseCuba.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\obj\Debug\TriniHorseCuba.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.dll.config
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\Mail.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.BE.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.BLL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.DAL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\Mail.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.BE.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.BLL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\bin\TriniHorseCuba.DAL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba\obj\Debug\TriniHorseCuba.csproj.CopyComplete
