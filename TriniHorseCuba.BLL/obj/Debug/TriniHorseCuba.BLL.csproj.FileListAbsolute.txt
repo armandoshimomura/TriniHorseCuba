@@ -20,3 +20,14 @@ C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BLL\obj\Debug\TriniHo
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.csproj.CopyComplete
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.dll
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\bin\Debug\TriniHorseCuba.BLL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\bin\Debug\TriniHorseCuba.BLL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\bin\Debug\TriniHorseCuba.BE.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\bin\Debug\TriniHorseCuba.DAL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\bin\Debug\TriniHorseCuba.BE.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\bin\Debug\TriniHorseCuba.DAL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.csprojAssemblyReference.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.csproj.CopyComplete
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BLL\obj\Debug\TriniHorseCuba.BLL.pdb

@@ -66,7 +66,7 @@
                                     <ItemTemplate>
                                         <div class="col-sm-3 mb-3">
                                             <div class="card text-center">
-                                                <asp:Image CssClass="card-img-top img-fluid" ID="imgGaleria" runat="server" ImageUrl='<%# "~/img/collage/" + Eval("NombreImagen") %>' responsive />
+                                                <asp:Image CssClass="card-img-top img-fluid" ID="imgGaleria" runat="server" ImageUrl='<%# "~/img/galery/" + Eval("NombreImagen") %>' responsive />
 
                                                 <div class="card-body">
                                                     <asp:HiddenField ID="hdfCodigo" runat="server" Value='<%#Eval("Codigo") %>' />

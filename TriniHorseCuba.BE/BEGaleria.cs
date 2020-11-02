@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TriniHorseCuba.BE
 {
-    public class BECollage
+    public class BEGaleria
     {
         public int Codigo { get; set; }
         public string NombreImagen { get; set; }

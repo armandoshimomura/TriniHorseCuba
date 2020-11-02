@@ -16,3 +16,12 @@ C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.DAL\obj\Debug\TriniHo
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.csproj.CopyComplete
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.dll
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\bin\Debug\TriniHorseCuba.DAL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\bin\Debug\TriniHorseCuba.DAL.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\bin\Debug\TriniHorseCuba.BE.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\bin\Debug\TriniHorseCuba.BE.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.csprojAssemblyReference.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.csproj.CopyComplete
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.DAL\obj\Debug\TriniHorseCuba.DAL.pdb

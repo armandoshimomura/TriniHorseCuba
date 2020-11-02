@@ -28,7 +28,7 @@ namespace TriniHorseCuba.DAL
 
             try
             {
-                conn = new SqlConnection(Db.CadenaCon("THCuba"));
+                conn = new SqlConnection(Db.CadenaCon("TriniHorseCuba"));
                 SqlCommand cmd = new SqlCommand(prcObtenerContrasena, conn)
                 {
                     CommandType = CommandType.StoredProcedure
@@ -67,7 +67,7 @@ namespace TriniHorseCuba.DAL
 
             try
             {
-                conn = new SqlConnection(Db.CadenaCon("THCuba"));
+                conn = new SqlConnection(Db.CadenaCon("TriniHorseCuba"));
                 SqlCommand cmd = new SqlCommand(prcObtenerInfoUsuario, conn)
                 {
                     CommandType = CommandType.StoredProcedure
@@ -110,7 +110,7 @@ namespace TriniHorseCuba.DAL
 
             try
             {
-                conn = new SqlConnection(Db.CadenaCon("THCuba"));
+                conn = new SqlConnection(Db.CadenaCon("TriniHorseCuba"));
                 SqlCommand cmd = new SqlCommand(prcCambiarContrasena, conn)
                 {
                     CommandType = CommandType.StoredProcedure

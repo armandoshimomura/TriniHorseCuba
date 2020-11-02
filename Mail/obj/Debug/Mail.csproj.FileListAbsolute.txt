@@ -10,3 +10,9 @@ C:\Users\HP-PC\source\repos\TriniHorseCuba2\Mail\obj\Debug\Mail.csprojAssemblyRe
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\Mail\obj\Debug\Mail.csproj.CoreCompileInputs.cache
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\Mail\obj\Debug\Mail.dll
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\Mail\obj\Debug\Mail.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\Mail\bin\Debug\Mail.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\Mail\bin\Debug\Mail.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\Mail\obj\Debug\Mail.csprojAssemblyReference.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\Mail\obj\Debug\Mail.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\Mail\obj\Debug\Mail.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\Mail\obj\Debug\Mail.pdb

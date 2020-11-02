@@ -26,7 +26,7 @@ namespace TriniHorseCuba.DAL
 
             try
             {
-                conn = new SqlConnection(Db.CadenaCon("THCuba"));
+                conn = new SqlConnection(Db.CadenaCon("TriniHorseCuba"));
                 SqlCommand cmd = new SqlCommand(prcListaFormularios, conn)
                 {
                     CommandType = CommandType.StoredProcedure

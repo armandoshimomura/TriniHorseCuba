@@ -54,9 +54,9 @@ namespace TriniHorseCuba.Admin
             string CodigoEliminacion = (item.FindControl("hdfCodigo") as HiddenField).Value;
 
             Admin mp = (Admin)Master;
-            BLLCollage obj = new BLLCollage();
+            BLLGaleria obj = new BLLGaleria();
 
-            BEResultado rpta = obj.MantenimientoCollage("D", Convert.ToInt32(CodigoEliminacion), "", "", 0);
+            BEResultado rpta = obj.MantenimientoGaleria("D", Convert.ToInt32(CodigoEliminacion), "", "", 0);
 
             if (rpta.Codigo == 1)
             {
@@ -86,9 +86,9 @@ namespace TriniHorseCuba.Admin
             if (Validar_Form() == true)
             {
                 Admin mp = (Admin)Master;
-                BLLCollage obj = new BLLCollage();
+                BLLGaleria obj = new BLLGaleria();
                 
-                BEResultado rpta = obj.MantenimientoCollage(hdfAccion.Value, Convert.ToInt32(hdfCodigoTab02.Value), hdfImagenSubida.Value,
+                BEResultado rpta = obj.MantenimientoGaleria(hdfAccion.Value, Convert.ToInt32(hdfCodigoTab02.Value), hdfImagenSubida.Value,
                                                            txtTitulo.Text.Trim(), Convert.ToInt32(txtOrden.Text.Trim()));
 
                 if (rpta.Codigo == 1)
@@ -111,7 +111,7 @@ namespace TriniHorseCuba.Admin
         {
             if (hdfAccion.Value == "I" && imgTab02.ImageUrl != "")
             {
-                File.Delete(Server.MapPath("../img/collage/" + hdfImagenSubida.Value));
+                File.Delete(Server.MapPath("../img/galery/" + hdfImagenSubida.Value));
             }
 
             Activar_Tab(1);
@@ -137,7 +137,7 @@ namespace TriniHorseCuba.Admin
 
                 if (fileImage.Extension == ".jpg" || fileImage.Extension == ".jpeg" || fileImage.Extension == ".png")
                 {
-                    string RutaImagen = Server.MapPath("~/img/collage/" + imageToUpload.FileName);
+                    string RutaImagen = Server.MapPath("~/img/galery/" + imageToUpload.FileName);
 
                     if (File.Exists(RutaImagen))
                     {
@@ -146,7 +146,7 @@ namespace TriniHorseCuba.Admin
 
                     hdfImagenSubida.Value = imageToUpload.FileName;
                     imageToUpload.SaveAs(RutaImagen);
-                    imgTab02.ImageUrl = "../img/collage/" + imageToUpload.FileName;
+                    imgTab02.ImageUrl = "../img/galery/" + imageToUpload.FileName;
                     imgTab02.DataBind();
                 }
             }
@@ -158,8 +158,8 @@ namespace TriniHorseCuba.Admin
         {
             string MsjResultado = "";
 
-            BLLCollage obj = new BLLCollage();
-            List<BECollage> _lstGaleria = obj.ListarCollage(ref MsjResultado);
+            BLLGaleria obj = new BLLGaleria();
+            List<BEGaleria> _lstGaleria = obj.ListarGaleria(ref MsjResultado);
 
             if (MsjResultado == "")
             {
