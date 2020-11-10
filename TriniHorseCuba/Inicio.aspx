@@ -144,6 +144,13 @@
                             <div class="testi-item">
                                 <img src="img/quote2.png" alt="">
                                 <h4><%# Eval("Nombre") %></h4>
+                                <ul class="list">
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
                                 <div class="wow fadeIn" data-wow-duration="1s">
                                     <p><%# Eval("Comentario") %></p>
                                 </div>
@@ -161,14 +168,14 @@
             <ContentTemplate>
                 <div class="container">
                     <div class="form-row mb-3">
-                        <div class="col-md-12 col-lg-3">
-                            <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control" placeholder="Nombre / Name" MaxLength="20" required></asp:TextBox>
+                        <div class="col-md-12 col-lg-3 mb-2">
+                            <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control" MaxLength="20" required></asp:TextBox>
                         </div>
-                        <div class="col-md-12 col-lg-7">
-                            <asp:TextBox ID="txtComentario" runat="server" CssClass="form-control" placeholder="Comentario / Comment" MaxLength="150" required></asp:TextBox>
+                        <div class="col-md-12 col-lg-7 mb-2">
+                            <asp:TextBox ID="txtComentario" runat="server" CssClass="form-control" MaxLength="150" required></asp:TextBox>
                         </div>
-                        <div class="col-md-12 col-lg-2">
-                            <asp:Button ID="btnEnviar" runat="server" CssClass="btn btn-success btn-block" Text="Enviar" OnClick="btnEnviar_Click" CausesValidation="false" />
+                        <div class="col-md-12 col-lg-2 mb-2">
+                            <asp:Button ID="btnEnviar" runat="server" CssClass="btn btn-success btn-block" OnClick="btnEnviar_Click" CausesValidation="false" />
                         </div>                
                     </div>
                     <div class="form-row mb-5">

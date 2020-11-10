@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web;
+using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TriniHorseCuba.BE;
@@ -15,6 +16,7 @@ namespace TriniHorseCuba
     {
         cTHC cU = new cTHC();
         Util eU = new Util();
+        string CorreoDestino = WebConfigurationManager.AppSettings["CorreoDestino"];
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -79,6 +81,24 @@ namespace TriniHorseCuba
                 lblTextoEncuentro.Text = lstDatos.lstTextosHome.ElementAt(0).TextoEncuentranos;
                 lblTextoBoton.Text = lstDatos.lstTextosHome.ElementAt(0).BotonEncuentranos;
             }
+
+            string Idioma = Session["Idioma"].ToString();
+
+            switch (Idioma)
+            {
+                case "SPA":
+                    txtNombre.Attributes.Add("placeholder", "Nombre");
+                    txtComentario.Attributes.Add("placeholder", "Comentario");
+                    btnEnviar.Text = "Enviar";
+
+                    break;
+                default:
+                    txtNombre.Attributes.Add("placeholder", "Name");
+                    txtComentario.Attributes.Add("placeholder", "Comment");
+                    btnEnviar.Text = "Send";
+
+                    break;
+            }
         }
 
         private void Cargar_Comentarios()
@@ -110,16 +130,24 @@ namespace TriniHorseCuba
                 body.AppendLine("<li>" + "Comentario: " + txtComentario.Text.Trim() + "</li>");
                 body.AppendLine("</ul>");
 
-                eU.Enviar("dokdsam@gmail.com", "Nuevo comentario en la web", body);
+                int rptaMsj = eU.Enviar("noreply@horsebackuba.com", "Web HorseBackuba", CorreoDestino, "Nuevo comentario en la web", body);
 
-                divMsj.Attributes.Add("class", cU.claseMsj("success"));
+                if (rptaMsj == 1)
+                {
+                    divMsj.Attributes.Add("class", cU.claseMsj("success"));
 
-                txtNombre.Text = string.Empty;
-                txtComentario.Text = string.Empty;
+                    txtNombre.Text = string.Empty;
+                    txtComentario.Text = string.Empty;
+                }
+                else
+                {
+                    divMsj.Attributes.Add("class", cU.claseMsj("danger"));
+                    rpta.Descripcion = "Se presentaron problemas para el envío de correo, intentar nuevamente.";
+                }
             }
             else
             {
-                divMsj.Attributes.Add("class", cU.claseMsj("danger"));                
+                divMsj.Attributes.Add("class", cU.claseMsj("danger"));
             }
 
             divMsj.InnerHtml = rpta.Descripcion;

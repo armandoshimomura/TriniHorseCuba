@@ -25,7 +25,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1852.1786847433043!2d-79.98548857939171!3d21.805118951702262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f2ae44258937441%3A0x599a9d350caeb3d3!2sPlaza%20Mayor!5e0!3m2!1ses!2spe!4v1588461967658!5m2!1ses!2spe" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="contact_info">
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
@@ -44,30 +44,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9">
-                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name (Nombre)">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email (Correo)">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject (Asunto)">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message (Mensaje)"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-right">
-                            <button type="submit" value="submit" class="primary-btn text-uppercase">Send (Enviar)</button>
-                        </div>
+                <div class="col-lg-8">
+                    <form id="frmContacto" runat="server">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                        <asp:UpdatePanel ID="upContacto" runat="server">
+                            <ContentTemplate>
+                                <div class="row contact_form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txtNombre" CssClass="form-control" runat="server" required></asp:TextBox>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txtCorreo" CssClass="form-control" runat="server" AutoCompleteType="Email" required></asp:TextBox>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txtAsunto" runat="server" CssClass="form-control" required></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txtMensaje" CssClass="form-control" TextMode="MultiLine" Rows="3" runat="server" required></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-right">
+                                        <asp:Button ID="btnEnviarContacto" CssClass="primary-btn text-uppercase" runat="server" Text="Enviar/Send" OnClick="btnEnviarContacto_Click" CausesValidation="false" />
+                                    </div>
+                                    <div class="form-row mb-5">
+                                        <div class="col-md-12">
+                                            <div id="divMsj" runat="server" role="alert"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ContentTemplate>
+                            <Triggers>
+                                <asp:AsyncPostBackTrigger ControlID="btnEnviarContacto" EventName="Click" />
+                            </Triggers>
+                        </asp:UpdatePanel>                        
                     </form>
                 </div>
-            </div>
+            </div>                   
         </div>
     </section>
 </asp:Content>
