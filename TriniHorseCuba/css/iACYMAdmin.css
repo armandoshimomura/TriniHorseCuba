@@ -1,0 +1,139 @@
+﻿.adminx-content h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.add-image > .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .add-image > .form * {
+        width: auto;
+    }
+
+    .add-image > .form h2 {
+        font-size: 15px;
+        min-width: 160px;
+    }
+
+    .add-image > .form input[type="file"] {
+        display: none;
+    }
+
+    .add-image > .form label {
+        width: calc(100% - 172px);
+        margin-left: 15px;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .add-image > .form input[type="text"] {
+        line-height: 42px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        font-size: 13px;
+        width: 100%;
+        padding: 0 15px;
+        outline: none;
+        cursor: default;
+    }
+
+        .add-image > .form input[type="text"]:not(.jscolor) {
+            pointer-events: none;
+        }
+
+        .add-image > .form input[type="text"]:disabled {
+            background-color: #fff;
+        }
+
+    .add-image > .form label .material-icons {
+        position: absolute;
+        line-height: 20px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: lightgray;
+        color: #fff;
+        right: 15px;
+        top: calc(50% - 10px);
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.25s;
+        display: none;
+    }
+
+        .add-image > .form label .material-icons:hover {
+            background-color: gray;
+        }
+
+    .add-image > .form > .material-icons {
+        line-height: 42px;
+        width: 50px;
+        text-align: center;
+        border: 1px solid lightgray;
+        background-color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 15px;
+        color: lightgray;
+        transition: 0.25s;
+        user-select: none;
+    }
+
+        .add-image > .form > .material-icons:hover {
+            border-color: #007bff;
+            color: #007bff;
+        }
+
+    .add-image > .form .btn-guardar {
+        margin-left: 15px;
+        line-height: 42px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 12px;
+        padding: 0 50px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .add-image > .form .btn-guardar.disabled {
+            pointer-events: none;
+            background-color: lightgray;
+        }
+
+@media screen and (max-width: 620px) {
+    .container {
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .add-image > .form {
+        flex-direction: column;
+    }
+
+        .add-image > .form h2 {
+            text-align: center;
+        }
+
+        .add-image > .form label {
+            margin: 15px 0;
+            width: 100%;
+        }
+
+            .add-image > .form label input {
+                text-align: center;
+            }
+
+        .add-image > .form > .material-icons {
+            margin: 0 0 15px 0;
+        }
+}

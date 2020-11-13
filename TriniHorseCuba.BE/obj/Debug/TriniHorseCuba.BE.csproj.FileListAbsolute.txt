@@ -9,3 +9,9 @@ C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\obj\Debug\TriniHor
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.csproj.CoreCompileInputs.cache
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.dll
 C:\Users\HP-PC\source\repos\TriniHorseCuba2\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BE\bin\Debug\TriniHorseCuba.BE.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BE\bin\Debug\TriniHorseCuba.BE.pdb
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.csprojAssemblyReference.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.dll
+C:\Users\HP-PC\source\repos\TriniHorseCuba4\TriniHorseCuba.BE\obj\Debug\TriniHorseCuba.BE.pdb

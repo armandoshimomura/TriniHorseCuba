@@ -9,26 +9,26 @@ using System.Threading.Tasks;
 
 namespace TriniHorseCuba.DAL
 {
-    public class DALCnCollage
+    public class DALCnGaleria
     {
         DALBase Db = new DALBase();
 
         #region Procedimientos
 
-        private const string prcListaCollage = "USP_LISTAR_COLLAGE";
-        private const string prcMantenimientoCollage = "USP_MNT_COLLAGE";
+        private const string prcListaGaleria = "USP_LISTAR_GALERIA";
+        private const string prcMantenimientoGaleria = "USP_MNT_GALERIA";
 
         #endregion
 
-        public List<BECollage> ListarCollage(ref string sMensajeResultado)
+        public List<BEGaleria> ListarGaleria(ref string sMensajeResultado)
         {
-            List<BECollage> lista = new List<BECollage>();
+            List<BEGaleria> lista = new List<BEGaleria>();
             SqlConnection conn = null;
 
             try
             {
-                conn = new SqlConnection(Db.CadenaCon("THCuba"));
-                SqlCommand cmd = new SqlCommand(prcListaCollage, conn)
+                conn = new SqlConnection(Db.CadenaCon("TriniHorseCuba"));
+                SqlCommand cmd = new SqlCommand(prcListaGaleria, conn)
                 {
                     CommandType = CommandType.StoredProcedure
                 };
@@ -39,14 +39,14 @@ namespace TriniHorseCuba.DAL
                 {
                     while (Result.Read())
                     {
-                        BECollage _BECollage = new BECollage();
+                        BEGaleria _BEGaleria = new BEGaleria();
 
-                        _BECollage.Codigo = Convert.ToInt32(Result["Codigo"]);
-                        _BECollage.NombreImagen = Result["NombreImagen"].ToString();
-                        _BECollage.Titulo = Result["Titulo"].ToString();
-                        _BECollage.Orden = Convert.ToInt32(Result["Orden"]);
+                        _BEGaleria.Codigo = Convert.ToInt32(Result["Codigo"]);
+                        _BEGaleria.NombreImagen = Result["NombreImagen"].ToString();
+                        _BEGaleria.Titulo = Result["Titulo"].ToString();
+                        _BEGaleria.Orden = Convert.ToInt32(Result["Orden"]);
 
-                        lista.Add(_BECollage);
+                        lista.Add(_BEGaleria);
                     }
 
                     sMensajeResultado = "";
@@ -66,15 +66,15 @@ namespace TriniHorseCuba.DAL
             return lista;
         }
 
-        public BEResultado MantenimientoCollage(string Accion, int Codigo, string NombreImagen, string Titulo, int Orden)
+        public BEResultado MantenimientoGaleria(string Accion, int Codigo, string NombreImagen, string Titulo, int Orden)
         {
             BEResultado _Resultado = new BEResultado();
             SqlConnection conn = null;
 
             try
             {
-                conn = new SqlConnection(Db.CadenaCon("THCuba"));
-                SqlCommand cmd = new SqlCommand(prcMantenimientoCollage, conn)
+                conn = new SqlConnection(Db.CadenaCon("TriniHorseCuba"));
+                SqlCommand cmd = new SqlCommand(prcMantenimientoGaleria, conn)
                 {
                     CommandType = CommandType.StoredProcedure
                 };

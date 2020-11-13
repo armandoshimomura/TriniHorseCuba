@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DALBase.cs" />
-    <Compile Include="DALCnCollage.cs" />
+    <Compile Include="DALCnGaleria.cs" />
     <Compile Include="DALCnComentario.cs" />
     <Compile Include="DALCnFormulario.cs" />
     <Compile Include="DALCnHome.cs" />

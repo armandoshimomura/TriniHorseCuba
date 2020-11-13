@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BECollage.cs" />
+    <Compile Include="BEGaleria.cs" />
     <Compile Include="BEComentario.cs" />
     <Compile Include="BEDetalleServicios.cs" />
     <Compile Include="BEDia.cs" />
